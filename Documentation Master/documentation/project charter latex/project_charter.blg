@@ -1,0 +1,9 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: project_charter.aux
+The style file: plain.bst
+Illegal, another \bibstyle command---line 43 of file project_charter.aux
+ : \bibstyle
+ :          {reference/IEEEtran_custom}
+I'm skipping whatever remains of this command
+Database file #1: reference/refs.bib
+Warning--I didn't find a database entry for "Rubin2012"
+(There was 1 error message)

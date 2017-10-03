@@ -12,17 +12,17 @@
 \contentsline {section}{\numberline {10}Documentation \& Reporting}{6}
 \contentsline {subsection}{\numberline {10.1}Project Charter}{6}
 \contentsline {subsection}{\numberline {10.2}Product Backlog}{6}
-\contentsline {subsection}{\numberline {10.3}Sprint Planning}{6}
+\contentsline {subsection}{\numberline {10.3}Sprint Planning}{7}
 \contentsline {subsubsection}{\numberline {10.3.1}Sprint Goal}{7}
 \contentsline {subsubsection}{\numberline {10.3.2}Sprint Backlog}{7}
 \contentsline {subsubsection}{\numberline {10.3.3}Task Breakdown}{7}
 \contentsline {subsection}{\numberline {10.4}Sprint Burndown Charts}{7}
-\contentsline {subsection}{\numberline {10.5}Sprint Retrospective}{7}
-\contentsline {subsection}{\numberline {10.6}Individual Status Reports}{7}
-\contentsline {subsection}{\numberline {10.7}Engineering Notebooks}{7}
-\contentsline {subsection}{\numberline {10.8}Closeout Materials}{7}
-\contentsline {subsubsection}{\numberline {10.8.1}System Prototype}{7}
-\contentsline {subsubsection}{\numberline {10.8.2}Project Poster}{7}
+\contentsline {subsection}{\numberline {10.5}Sprint Retrospectives}{7}
+\contentsline {subsection}{\numberline {10.6}Individual Status Reports}{8}
+\contentsline {subsection}{\numberline {10.7}Engineering Notebooks}{8}
+\contentsline {subsection}{\numberline {10.8}Closeout Materials}{8}
+\contentsline {subsubsection}{\numberline {10.8.1}System Prototype}{8}
+\contentsline {subsubsection}{\numberline {10.8.2}Project Poster}{8}
 \contentsline {subsubsection}{\numberline {10.8.3}Web Page}{8}
 \contentsline {subsubsection}{\numberline {10.8.4}Demo Video}{8}
 \contentsline {subsubsection}{\numberline {10.8.5}Source Code}{8}
