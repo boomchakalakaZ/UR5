@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.2)  30 OCT 2017 20:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.2)  30 OCT 2017 21:16
 entering extended mode
 **./system_requirements_specification.tex
 (system_requirements_specification.tex
@@ -741,25 +741,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--24
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
-
- []
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 44--115
-
- []
-
-[9] [10] (tex/safety_requirements.tex) [11]
-(tex/maintenance_support_requirements.tex) [12] (tex/other_requirements.tex)
-[13] (tex/future_items.tex) [14] (system_requirements_specification.bbl
+) [9] (tex/safety_requirements.tex) [10]
+(tex/maintenance_support_requirements.tex) [11] (tex/other_requirements.tex)
+[12] (tex/future_items.tex) [13] (system_requirements_specification.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 ) 
 AED: lastpage setting LastPage
-[15] (system_requirements_specification.aux) ) 
+[14] (system_requirements_specification.aux) ) 
 Here is how much of TeX's memory you used:
  6048 strings out of 493323
  86254 string characters out of 3130015
@@ -774,10 +764,10 @@ grams/MiKTeX 2.9/fonts/enc/dvips/ly1/texnansi.enc}<C:/Users/Jesse/AppData/Local
 pData/Local/Programs/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Use
 rs/Jesse/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr8
 t.pfb>
-Output written on system_requirements_specification.pdf (15 pages, 118743 bytes
+Output written on system_requirements_specification.pdf (14 pages, 118540 bytes
 ).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
+ 62 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
