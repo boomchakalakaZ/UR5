@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.2)  30 OCT 2017 21:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.2)  30 OCT 2017 21:21
 entering extended mode
 **./system_requirements_specification.tex
 (system_requirements_specification.tex
@@ -757,14 +757,14 @@ Here is how much of TeX's memory you used:
  9361 multiletter control sequences out of 15000+200000
  60304 words of font info for 71 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,11n,43p,520b,291s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,11n,43p,482b,291s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Jesse/AppData/Local/Pro
 grams/MiKTeX 2.9/fonts/enc/dvips/ly1/texnansi.enc}<C:/Users/Jesse/AppData/Local
 /Programs/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Users/Jesse/Ap
 pData/Local/Programs/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Use
 rs/Jesse/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr8
 t.pfb>
-Output written on system_requirements_specification.pdf (14 pages, 118540 bytes
+Output written on system_requirements_specification.pdf (14 pages, 117869 bytes
 ).
 PDF statistics:
  62 PDF objects out of 1000 (max. 8388607)
