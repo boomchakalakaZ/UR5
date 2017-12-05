@@ -2,15 +2,19 @@ This section should describe the overall structure of your software system. Thin
 
 \begin{figure}[h!]
 	\centering
- 	\includegraphics[width=0.60\textwidth]{images/layers}
+ 	\includegraphics[width=0.60\textwidth]{images/ADS_layers}
  \caption{A simple architectural layer diagram}
 \end{figure}
 
-\subsection{Layer X Description}
-Each layer should be described separately in detail. Descriptions should include the features, functions, critical interfaces and interactions of the layer. The description should clearly define the services that the layer provides. Also include any conventions that your team will use in describing the structure: naming conventions for layers, subsystems, modules, and data flows; interface specifications; how layers and subsystems are defined; etc. 
+\subsection{Network}
+%%%Each layer should be described separately in detail. Descriptions should include the features, functions, critical interfaces %%%and interactions of the layer. The description should clearly define the services that the layer provides. Also include any %%%%conventions that your team will use in describing the structure: naming conventions for layers, subsystems, modules, and data %%%flows; interface specifications; how layers and subsystems are defined; etc.
+This layer contains the router that will allow a connection to the UR5.
 
-\subsection{Layer Y Description}
-Each layer should be described separately in detail. Descriptions should include the features, functions, critical interfaces and interactions of the layer. The description should clearly define the services that the layer provides. Also include any conventions that your team will use in describing the structure: naming conventions for layers, subsystems, modules, and data flows; interface specifications; how layers and subsystems are defined; etc. 
+\subsection{Vision and Logic}
+This layer contains the camera, raspberry pi that will be use to communicate with the UR5.
 
-\subsection{Layer Z Description}
-Each layer should be described separately in detail. Descriptions should include the features, functions, critical interfaces and interactions of the layer. The description should clearly define the services that the layer provides. Also include any conventions that your team will use in describing the structure: naming conventions for layers, subsystems, modules, and data flows; interface specifications; how layers and subsystems are defined; etc. 
+\subsection{Mount}
+This layer contains the mount that will fit the tool into the mount by controlling the magnet.
+
+\subsection{UR5}
+This layer contains the UR5 robot arm, the polyscope(interface), and the control box.
