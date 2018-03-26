@@ -1,0 +1,129 @@
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="basylbinder.min.js"></script>
+    <style>
+        body {
+            margin:10px;
+        }
+        .button {
+            background-color:#4CAF50; /* Green */
+            /* display:inline-block; */
+            font-size:2.5vw;
+            text-align: center;
+            margin:4px 2px; 
+            -webkit-transition-duration:0.4s; /* Safari */
+            transition-duration:0.4s;
+            cursor:pointer;
+            padding:32px;
+        }
+
+        .button1 {
+            background-color:white; 
+            color:black; /*Text color*/
+            border:2px solid #4CAF50;
+        }
+
+        .button2 {
+            background-color:white; 
+            color:black; /*Text color*/
+            border:2px solid #4CAF50;
+        }  
+
+        .button3{
+            background-color:white; 
+            color:black; /*Text color*/
+            border:2px solid #4CAF50;
+        }  
+
+        .button4 {
+            background-color:white; 
+            color:black; /*Text color*/
+            border:2px solid #4CAF50;
+
+        }             
+
+        .allButtons:hover {
+            background-color:#4CAF50;
+            color:white; /*Text color*/
+        }
+
+        div#sizeButton{min-width:750px;}
+        div#sizeBUtton > div {float:left; width:21%;}
+        div#sizeBUtton > div > div{ padding:30px}
+        div#sizeBUtton > div > div > button{width:125%}
+    </style>
+</head>
+<body>
+    <vars Name="MasterChef"></vars>
+    
+    <div watch="html"  style="font-size:300%; text-align:left;">
+        {{Name}} <br>
+    </div>
+    <div id="sizeButton">
+        <div>
+            <div>
+                <button class="button button1 allButtons" onclick="callInitialize()">Initialize</button>
+            </div>
+        </div>
+        <div>
+            <div>
+                <button class="button button2 allButtons" onclick="callStartPython()">Start</button>
+            </div>
+        </div>
+        <div>
+            <div>
+                <button class="button button3 allButtons" onclick="callStopPython()">Stop</button>
+            </div>
+        </div>
+        <div>
+            <div>
+                <button class="button button4 allButtons" onclick="callFreeDrie()">FreeDrive</button>
+            </div>
+        </div>
+        
+    </div>
+
+    <script>
+    
+    function callStartPython()
+    {
+        $.ajax({
+            type: "POST",
+            url: "/StartPython",
+            // data: { "user": "Paul", "pass" : "Cantankerous"},
+            success: function(x)
+            {
+                console.log(x);
+            }
+        })
+    }
+
+    function callStopPython()
+    {
+        $.ajax({
+            type: "POST",
+            url: "/StopPython",
+            success: function(x)
+            {
+                console.log(x);
+            }
+        })
+    }
+
+    function callInitialize()
+    {
+    }
+
+    function callFreeDrive()
+    {
+     
+    }
+    $$.all()
+    </script>
+</body>
