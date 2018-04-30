@@ -56,7 +56,7 @@
         div#sizeButton{min-width:750px;}
         div#sizeBUtton > div {float:left; width:21%;}
         div#sizeBUtton > div > div{ padding:30px}
-        div#sizeBUtton > div > div > button{width:125%}
+        div#sizeBUtton > div > div > button{width:125%; height: 23%}
     </style>
 </head>
 <body>
@@ -68,22 +68,23 @@
     <div id="sizeButton">
         <div>
             <div>
-                <button class="button button1 allButtons" onclick="callInitialize()">Initialize</button>
+                <button class="button button1 allButtons" onclick="call_Home_Button()">Home</button>
             </div>
         </div>
         <div>
             <div>
-                <button class="button button2 allButtons" onclick="callStartPython()">Start</button>
+                <button class="button button2 allButtons" onclick="call_Start_Button()">Start</button>
             </div>
         </div>
         <div>
             <div>
-                <button class="button button3 allButtons" onclick="callStopPython()">Stop</button>
+                <button class="button button3 allButtons" onclick="call_Stop_Button()">Stop</button>
             </div>
         </div>
         <div>
             <div>
-                <button class="button button4 allButtons" onclick="callFreeDrie()">FreeDrive</button>
+                <button class="button button4 allButtons" onclick="call_SwapTools_Button()">Grab Spatula</button>
+                <button class="button button4 allButtons" onclick="call_SwapTools_Button()">Rack Spatula</button>
             </div>
         </div>
         
@@ -91,12 +92,11 @@
 
     <script>
     
-    function callStartPython()
+    function call_Start_Button()
     {
         $.ajax({
             type: "POST",
-            url: "/StartPython",
-            // data: { "user": "Paul", "pass" : "Cantankerous"},
+            url: "/StartButton",
             success: function(x)
             {
                 console.log(x);
@@ -104,11 +104,11 @@
         })
     }
 
-    function callStopPython()
+    function call_Stop_Button()
     {
         $.ajax({
             type: "POST",
-            url: "/StopPython",
+            url: "/StopButton",
             success: function(x)
             {
                 console.log(x);
@@ -116,13 +116,29 @@
         })
     }
 
-    function callInitialize()
+    function call_Home_Button()
     {
+        $.ajax({
+            type: "POST",
+            url: "/HomeButton",
+            success: function(x)
+            {
+                console.log(x);
+            }
+        })
+
     }
 
-    function callFreeDrive()
+    function call_SwapTools_Button()
     {
-     
+        $.ajax({
+            type: "POST",
+            url: "/SwapToolsButton",
+            success: function(x)
+            {
+                console.log(x);
+            }
+        })
     }
     $$.all()
     </script>
