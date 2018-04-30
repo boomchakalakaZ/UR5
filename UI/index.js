@@ -13,6 +13,7 @@ app.use("/", express.static("public/index.html"))
 app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); 
 
+
 function runPythonScript(script)
 {
   //to call code :: spawn('path to programming language .exe', [name of code])
@@ -26,26 +27,45 @@ function runPythonScript(script)
   python.stderr.on('data', (data) => {
     console.log(`stderr: ${data}`);
   });
-
-  python.on('close', (code) => {        
-    console.log(`child process exited with code ${code}`);
-  });
+ 
+  return python
 }
 
 
-
-app.post("/StartPython", (req, res) =>
+function killRun(script)
 {
-  runPythonScript('UR5test.py')
+  killPython().on('exit', () => runPythonScript(script))
+}
+
+function killPython()
+{
+  const killPython = spawn('sh', ['test.sh']);
+  return killPython
+}
+
+
+app.post("/StartButton", (req, res) =>
+{
+  console.log("Starting Grill Program")
+  killRun('Grill.py')
 })
 
 //Stop child process (the flip motion) halt or wait script
-app.post("/StopPython", (req, res) =>
+app.post("/StopButton", (req, res) =>
 {
-  console.log("should kill")
-  const killPython = spawn('sh', ['test.sh']);
-  //enter code here to tell ur5 to stop
-  // runPythonScript('')
+  console.log("Stopping Robot")
+  killRun('StopRobot.py')
+})
+
+app.post("/HomeButton", (req, res) =>
+{
+  console.log("Moving to home position")
+  killRun('HomePosition.py')
+})
+
+app.post("/SwapToolsButton", (req, res) =>
+{
+  killRun('SwapTools.py')
 })
 
 //litsening to webpage localhost:3000
