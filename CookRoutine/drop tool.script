@@ -1,0 +1,49 @@
+def drop_tool():
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 0)
+  set_analog_outputdomain(1, 0)
+  set_tool_voltage(12)
+  set_standard_digital_input_action(0, "default")
+  set_standard_digital_input_action(1, "default")
+  set_standard_digital_input_action(2, "default")
+  set_standard_digital_input_action(3, "default")
+  set_standard_digital_input_action(4, "default")
+  set_standard_digital_input_action(5, "default")
+  set_standard_digital_input_action(6, "default")
+  set_standard_digital_input_action(7, "default")
+  set_tool_digital_input_action(0, "default")
+  set_tool_digital_input_action(1, "default")
+  set_tcp(p[0.0,0.0,0.0,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  rtde_set_watchdog("speed_slider_mask", 10.0, "ignore")
+  while (True):
+    $ 1 "Robot Program"
+    $ 2 "MoveJ"
+    $ 3 "Waypoint_5"
+    movej([2.187718391418457, -1.6590097586261194, -0.5201371351825159, -2.5175326506244105, -1.7263954321490687, 2.485440254211426], a=1.3962634015954636, v=1.0471975511965976)
+    $ 4 "Waypoint_4"
+    movej([2.4897835431949353, -2.308323414543427, -0.5181577275725964, -1.8627808195013227, -1.4687711504904755, 3.1600520296025927], a=1.3962634015954636, v=1.0471975511965976)
+    $ 5 "Waypoint_1"
+    movej([2.4897835431949353, -2.308323414543427, -0.5181577275725964, -1.8627808195013227, 1.5131325995093725, 3.1600520296025927], a=1.3962634015954636, v=1.0471975511965976)
+    $ 6 "Waypoint_7"
+    movej([2.4895735580369767, -2.2657876197392515, -0.7032165008316653, -1.720337104767868, 1.5135801005098064, 3.1613190258218795], a=1.3962634015954636, v=1.0471975511965976)
+    $ 7 "set_tool_voltage(0)"
+    set_tool_voltage(0)
+    $ 8 "Waypoint_2"
+    movej([2.4898767716998726, -2.336639851817502, -0.42456073767447045, -1.9280257766071731, 1.5128633582008657, 3.159489735162687], a=1.3962634015954636, v=1.0471975511965976)
+    $ 9 "set_tool_voltage(12)"
+    set_tool_voltage(12)
+    $ 10 "Waypoint_8"
+    movej([2.4895767785782468, -2.2662450431904153, -0.7005901520968223, -1.7225048086351142, 1.5135749177363977, 3.161299363138332], a=1.3962634015954636, v=1.0471975511965976)
+    $ 11 "Waypoint_3"
+    movej([2.4898050329121473, -2.314280691063967, -0.49729391994242356, -1.8776791738167091, 1.5130746959714134, 3.1599224390153555], a=1.3962634015954636, v=1.0471975511965976)
+    $ 12 "Waypoint_6"
+    movej([2.4898050329121473, -2.314280691063967, -0.49729391994242356, -1.8776791738167091, -0.21732530402857364, 3.1599224390153555], a=1.3962634015954636, v=1.0471975511965976)
+    $ 13 "Waypoint_5"
+    movej([2.187718391418457, -1.6590097586261194, -0.5201371351825159, -2.5175326506244105, -1.7263954321490687, 2.485440254211426], a=1.3962634015954636, v=1.0471975511965976)
+  end
+end
