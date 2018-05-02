@@ -47,7 +47,7 @@ function killPython()
 app.post("/StartButton", (req, res) =>
 {
   console.log("Starting Grill Program")
-  killRun('Grill.py')
+  killRun('GrillFinal.py')
 })
 
 //Stop child process (the flip motion) halt or wait script
