@@ -4,9 +4,10 @@
   "description": "This is a test of the backend dev",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Linh Vu",
+  "contributors": ["Jesse Daniel Mitchell", "Anthony Tatowicz", "Todd Brewer", "Linh Vu"],
   "license": "ISC",
   "devDependencies": {
     "express": "^4.16.2"
