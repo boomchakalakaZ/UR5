@@ -3,7 +3,7 @@ import socket
 import time
 import sys
 
-HOST = "192.168.0.103" # The remote host
+HOST = "192.168.0.105" # The remote host
 PORT = 30002 # The same port as used by the server
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

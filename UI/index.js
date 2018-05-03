@@ -13,11 +13,12 @@ app.use("/", express.static("public/index.html"))
 app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); 
 
+PORT = 3000
 
 function runPythonScript(script)
 {
   //to call code :: spawn('path to programming language .exe', [name of code])
-  const python = spawn('C:/Program Files/Python36/python.exe', [script]);
+  const python = spawn('python', [script]);
 
     //printing to cmder console
   python.stdout.on('data', (data) => {
@@ -47,7 +48,8 @@ function killPython()
 app.post("/StartButton", (req, res) =>
 {
   console.log("Starting Grill Program")
-  killRun('Grill.py')
+  killRun('GrillFinal.py')
+  res.json(true)
 })
 
 //Stop child process (the flip motion) halt or wait script
@@ -55,18 +57,21 @@ app.post("/StopButton", (req, res) =>
 {
   console.log("Stopping Robot")
   killRun('StopRobot.py')
+  res.json(true)
 })
 
 app.post("/HomeButton", (req, res) =>
 {
   console.log("Moving to home position")
   killRun('HomePosition.py')
+  res.json(true)
 })
 
 app.post("/SwapToolsButton", (req, res) =>
 {
   killRun('SwapTools.py')
+  res.json(true)
 })
 
 //litsening to webpage localhost:3000
-app.listen(3000, () => console.log("Server running."))
+app.listen(PORT, () => console.log(`Server running. Port: ${PORT}`))
