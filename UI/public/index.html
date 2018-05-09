@@ -84,7 +84,7 @@
         <div>
             <div>
                 <button class="button button4 allButtons" onclick="call_SwapTools_Button()">Grab Spatula</button>
-                <button class="button button4 allButtons" onclick="call_SwapTools_Button()">Rack Spatula</button>
+                <button class="button button4 allButtons" onclick="call_RackTools_Button()">Rack Spatula</button>
             </div>
         </div>
         
@@ -134,6 +134,18 @@
         $.ajax({
             type: "POST",
             url: "/SwapToolsButton",
+            success: function(x)
+            {
+                console.log(x);
+            }
+        })
+    }
+
+    function call_RackTools_Button()
+    {
+        $.ajax({
+            type: "POST",
+            url: "/RackTools",
             success: function(x)
             {
                 console.log(x);

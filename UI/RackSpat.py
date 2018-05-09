@@ -3,7 +3,7 @@ import socket
 import time
 import sys
 
-HOST = "192.168.0.105" # The remote host
+HOST = "192.168.0.101" # The remote host
 PORT = 30002 # The same port as used by the server
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -18,7 +18,7 @@ s.send(b"movej([2.4897835431949353, -2.308323414543427, -0.5181577275725964, -1.
 time.sleep(3.5)
 s.send(b"movej([2.4895735580369767, -2.2657876197392515, -0.7032165008316653, -1.720337104767868, 1.5135801005098064, 3.1613190258218795], t=3.0)\n")
 time.sleep(3.5)
-s.send(b"set_tool_voltage(12)\n")
+s.send(b"set_tool_voltage(0)\n")
 time.sleep(1)
 s.send(b"movej([2.4898767716998726, -2.336639851817502, -0.42456073767447045, -1.9280257766071731, 1.5128633582008657, 3.159489735162687], t=3.0)\n")
 time.sleep(3.5)

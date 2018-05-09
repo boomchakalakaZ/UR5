@@ -68,5 +68,10 @@ app.post("/SwapToolsButton", (req, res) =>
   killRun('SwapTools.py')
 })
 
+app.post("/RackToolsButton", (req, res) =>
+{
+  killRun('RackSpat.py')
+})
+
 //litsening to webpage localhost:3000
 app.listen(3000, () => console.log("Server running."))
