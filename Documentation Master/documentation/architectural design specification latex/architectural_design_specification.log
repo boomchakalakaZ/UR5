@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.10.27)  4 DEC 2017 22:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.10.27)  9 MAY 2018 21:59
 entering extended mode
 **./architectural_design_specification.tex
 (architectural_design_specification.tex
@@ -587,7 +587,7 @@ LaTeX Font Info:    Font shape `T1/mdbch/b/fsc' will be
  (architectural_design_specification.ver)
 (architectural_design_specification.ver)
 (architectural_design_specification.ver
-Underfull \vbox (badness 10000) detected at line 10
+Underfull \vbox (badness 10000) detected at line 14
  []
 
 ) [2] (architectural_design_specification.toc
@@ -695,7 +695,7 @@ e 5.
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
 (Font)              scaled to size 11.52008pt on input line 9.
 ) [6 <./images/ADS_layers.png>] (tex/data_flow.tex
-<images/ADS_data_flow.png, id=26, 696.6025pt x 633.36626pt>
+<images/ADS_data_flow.png, id=27, 696.6025pt x 633.36626pt>
 File: images/ADS_data_flow.png Graphic file (type png)
 <use images/ADS_data_flow.png>
 Package pdftex.def Info: images/ADS_data_flow.png  used on input line 5. on inp
@@ -703,52 +703,97 @@ ut line 5.
 Package pdftex.def Info: Requested size: 469.75502pt x 427.10754pt on input lin
 e 5.
 )
-[7 <./images/ADS_data_flow.png>] (tex/x_layer_subsystems.tex
-<images/subsystem.png, id=33, 237.13594pt x 242.40562pt>
-File: images/subsystem.png Graphic file (type png)
-<use images/subsystem.png>
-Package pdftex.def Info: images/subsystem.png  used on input line 8. on input l
-ine 8.
-Package pdftex.def Info: Requested size: 281.85587pt x 288.12965pt on input lin
-e 8.
+[7 <./images/ADS_data_flow.png>] (tex/network_layer_subsystems.tex
+<images/Network_Layer.png, id=33, 248.93pt x 241.90375pt>
+File: images/Network_Layer.png Graphic file (type png)
+<use images/Network_Layer.png>
+Package pdftex.def Info: images/Network_Layer.png  used on input line 5. on inp
+ut line 5.
+Package pdftex.def Info: Requested size: 281.85587pt x 273.92386pt on input lin
+e 5.
 LaTeX Font Info:    Font shape `T1/mdbch/b/fsc' will be
 (Font)              scaled to size 10.51207pt on input line 12.
- [8 <./images/subsystem.png>]) [9] (tex/y_layer_subsystems.tex
-File: images/subsystem.png Graphic file (type png)
-<use images/subsystem.png>
-Package pdftex.def Info: images/subsystem.png  used on input line 8. on input l
-ine 8.
-Package pdftex.def Info: Requested size: 281.85587pt x 288.12965pt on input lin
-e 8.
- [10]) [11]
-(tex/z_layer_subsystems.tex
-File: images/subsystem.png Graphic file (type png)
-<use images/subsystem.png>
-Package pdftex.def Info: images/subsystem.png  used on input line 8. on input l
-ine 8.
-Package pdftex.def Info: Requested size: 281.85587pt x 288.12965pt on input lin
-e 8.
- [12]) [13]
+
+Underfull \hbox (badness 1596) in paragraph at lines 27--27
+[]\T1/mdbch/m/n/10.95 UR Script(UR In-
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 28--28
+[]\T1/mdbch/m/n/10.95 UR Script(UR In-
+ []
+
+) [8 <./images/Network_Layer.png>] (tex/control_layer_subsystems.tex
+<images/Control_Layer.png, id=38, 277.035pt x 251.94125pt>
+File: images/Control_Layer.png Graphic file (type png)
+<use images/Control_Layer.png>
+Package pdftex.def Info: images/Control_Layer.png  used on input line 5. on inp
+ut line 5.
+Package pdftex.def Info: Requested size: 281.85587pt x 256.32698pt on input lin
+e 5.
+ [9 <./images/Control_Layer.png>]
+Underfull \hbox (badness 1033) in paragraph at lines 58--58
+[]\T1/mdbch/m/n/10.95 Location of sand-
+ []
+
+
+Underfull \hbox (badness 6559) in paragraph at lines 58--58
+\T1/mdbch/m/n/10.95 sta-cle or hu-man
+ []
+
+) [10] (tex/UR5_layer_subsystems.tex
+<images/UR5_Layer.png, id=46, 302.12875pt x 261.97874pt>
+File: images/UR5_Layer.png Graphic file (type png)
+<use images/UR5_Layer.png>
+Package pdftex.def Info: images/UR5_Layer.png  used on input line 5. on input l
+ine 5.
+Package pdftex.def Info: Requested size: 281.85587pt x 244.40123pt on input lin
+e 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+[]\T1/mdbch/m/n/10.95 Instructions(UR
+ []
+
+[11 <./images/UR5_Layer.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+[]\T1/mdbch/m/n/10.95 Instructions(UR
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+[]\T1/mdbch/m/n/10.95 Instructions(UR
+ []
+
+[12]) [13] (tex/mount_layer_subsystems.tex
+<images/Mount_Layer.png, id=58, 255.95625pt x 201.75375pt>
+File: images/Mount_Layer.png Graphic file (type png)
+<use images/Mount_Layer.png>
+Package pdftex.def Info: images/Mount_Layer.png  used on input line 5. on input
+ line 5.
+Package pdftex.def Info: Requested size: 281.85587pt x 222.18224pt on input lin
+e 5.
+ [14 <./images/Mount_Layer.png>])
+[15]
 No file architectural_design_specification.bbl.
 
 AED: lastpage setting LastPage
 (architectural_design_specification.aux) ) 
 Here is how much of TeX's memory you used:
- 6105 strings out of 493318
- 83406 string characters out of 3139000
- 146819 words of memory out of 3000000
- 9421 multiletter control sequences out of 15000+200000
+ 6123 strings out of 493318
+ 83916 string characters out of 3139000
+ 148825 words of memory out of 3000000
+ 9433 multiletter control sequences out of 15000+200000
  60304 words of font info for 71 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,16n,43p,799b,343s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,16n,43p,643b,345s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/en
 c/dvips/ly1/texnansi.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/bitstrea/char
 ter/bchb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchr8a
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr8t.pfb>
-Output written on architectural_design_specification.pdf (13 pages, 157707 byte
+Output written on architectural_design_specification.pdf (15 pages, 175363 byte
 s).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
+ 78 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

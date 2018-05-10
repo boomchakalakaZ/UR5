@@ -1,3 +1,9 @@
-\contentsline {table}{\numberline {2}{\ignorespaces Subsystem interfaces}}{9}
-\contentsline {table}{\numberline {3}{\ignorespaces Subsystem interfaces}}{11}
-\contentsline {table}{\numberline {4}{\ignorespaces Subsystem interfaces}}{13}
+\contentsline {table}{\numberline {2}{\ignorespaces Router interfaces}}{8}
+\contentsline {table}{\numberline {3}{\ignorespaces UI interfaces}}{9}
+\contentsline {table}{\numberline {4}{\ignorespaces Camera interfaces}}{10}
+\contentsline {table}{\numberline {5}{\ignorespaces Raspberry Pi interfaces}}{10}
+\contentsline {table}{\numberline {6}{\ignorespaces UR5 Arm interfaces}}{11}
+\contentsline {table}{\numberline {7}{\ignorespaces Control Box interfaces}}{12}
+\contentsline {table}{\numberline {8}{\ignorespaces Polyscope interfaces}}{13}
+\contentsline {table}{\numberline {9}{\ignorespaces Connector interfaces}}{14}
+\contentsline {table}{\numberline {10}{\ignorespaces Magnet interfaces}}{15}
