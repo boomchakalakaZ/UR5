@@ -1,0 +1,82 @@
+\contentsline {section}{\numberline {1}Introduction}{5}
+\contentsline {section}{\numberline {2}System Overview}{5}
+\contentsline {section}{\numberline {3}Network Layer Subsystems}{6}
+\contentsline {subsection}{\numberline {3.1}Network Layer Hardware}{6}
+\contentsline {subsection}{\numberline {3.2}Network Layer Operating System}{6}
+\contentsline {subsection}{\numberline {3.3}Netowrk Layer Software Dependencies}{6}
+\contentsline {subsection}{\numberline {3.4}Router Subsystem}{6}
+\contentsline {subsubsection}{\numberline {3.4.1}Router Subsystem Hardware}{6}
+\contentsline {subsubsection}{\numberline {3.4.2}Router Subsystem Operating System}{6}
+\contentsline {subsubsection}{\numberline {3.4.3}Router Subsystem Software Dependencies}{7}
+\contentsline {subsubsection}{\numberline {3.4.4}Router Subsystem Programming Languages}{7}
+\contentsline {subsubsection}{\numberline {3.4.5}Router Subsystem Data Structures}{7}
+\contentsline {subsubsection}{\numberline {3.4.6}Router Subsystem Data Processing}{7}
+\contentsline {section}{\numberline {4}Control Layer Subsystems}{8}
+\contentsline {subsection}{\numberline {4.1}Control Layer Hardware}{8}
+\contentsline {subsection}{\numberline {4.2}Control Layer Operating System}{8}
+\contentsline {subsection}{\numberline {4.3}Control Layer Software Dependencies}{8}
+\contentsline {subsection}{\numberline {4.4}Raspberry Pi}{8}
+\contentsline {subsubsection}{\numberline {4.4.1}Raspberry Pi Subsystem Hardware}{8}
+\contentsline {subsubsection}{\numberline {4.4.2}Raspberry Pi Subsystem Operating System}{8}
+\contentsline {subsubsection}{\numberline {4.4.3}Raspberry Pi Subsystem Software Dependencies}{9}
+\contentsline {subsubsection}{\numberline {4.4.4}Raspberry Pi Subsystem Programming Languages}{9}
+\contentsline {subsubsection}{\numberline {4.4.5}Raspberry Pi Subsystem Data Structures}{9}
+\contentsline {subsubsection}{\numberline {4.4.6}Raspberry Pi Subsystem Data Processing}{9}
+\contentsline {subsection}{\numberline {4.5}Camera (Not fully implemented)}{9}
+\contentsline {subsubsection}{\numberline {4.5.1}Raspberry Pi Subsystem Hardware}{9}
+\contentsline {subsubsection}{\numberline {4.5.2}Raspberry Pi Subsystem Operating System}{9}
+\contentsline {subsubsection}{\numberline {4.5.3}Raspberry Pi Subsystem Software Dependencies}{9}
+\contentsline {subsubsection}{\numberline {4.5.4}Raspberry Pi Subsystem Programming Languages}{10}
+\contentsline {subsubsection}{\numberline {4.5.5}Raspberry Pi Subsystem Data Structures}{10}
+\contentsline {subsubsection}{\numberline {4.5.6}Raspberry Pi Subsystem Data Processing}{10}
+\contentsline {subsection}{\numberline {4.6}User Interface (UI)}{10}
+\contentsline {subsubsection}{\numberline {4.6.1}UI Subsystem Hardware}{10}
+\contentsline {subsubsection}{\numberline {4.6.2}UI Subsystem Operating System}{10}
+\contentsline {subsubsection}{\numberline {4.6.3}UI Subsystem Software Dependencies}{10}
+\contentsline {subsubsection}{\numberline {4.6.4}UI Subsystem Programming Languages}{10}
+\contentsline {subsubsection}{\numberline {4.6.5}UI Subsystem Data Structures}{10}
+\contentsline {subsubsection}{\numberline {4.6.6}UI Subsystem Data Processing}{11}
+\contentsline {section}{\numberline {5}UR5 Layer Subsystems}{12}
+\contentsline {subsection}{\numberline {5.1}UR5 Layer Hardware}{12}
+\contentsline {subsection}{\numberline {5.2}UR5 Layer Operating System}{12}
+\contentsline {subsection}{\numberline {5.3}UR5 Layer Software Dependencies}{12}
+\contentsline {subsection}{\numberline {5.4}UR5 Arm}{12}
+\contentsline {subsubsection}{\numberline {5.4.1}UR5 Arm Subsystem Hardware}{12}
+\contentsline {subsubsection}{\numberline {5.4.2}UR5 Arm Subsystem Operating System}{12}
+\contentsline {subsubsection}{\numberline {5.4.3}UR5 Arm Subsystem Software Dependencies}{13}
+\contentsline {subsubsection}{\numberline {5.4.4}UR5 Arm Subsystem Programming Languages}{13}
+\contentsline {subsubsection}{\numberline {5.4.5}UR5 Arm Subsystem Data Structures}{13}
+\contentsline {subsubsection}{\numberline {5.4.6}UR5 Arm Subsystem Data Processing}{13}
+\contentsline {subsection}{\numberline {5.5}Control Box}{13}
+\contentsline {subsubsection}{\numberline {5.5.1}UR5 Arm Subsystem Hardware}{13}
+\contentsline {subsubsection}{\numberline {5.5.2}Subsystem Operating System}{13}
+\contentsline {subsubsection}{\numberline {5.5.3}Subsystem Software Dependencies}{13}
+\contentsline {subsubsection}{\numberline {5.5.4}Subsystem Programming Languages}{13}
+\contentsline {subsubsection}{\numberline {5.5.5}Subsystem Data Structures}{14}
+\contentsline {subsubsection}{\numberline {5.5.6}Subsystem Data Processing}{14}
+\contentsline {subsection}{\numberline {5.6}Polyscope}{14}
+\contentsline {subsubsection}{\numberline {5.6.1}UR5 Arm Subsystem Hardware}{14}
+\contentsline {subsubsection}{\numberline {5.6.2}Subsystem Operating System}{14}
+\contentsline {subsubsection}{\numberline {5.6.3}Subsystem Software Dependencies}{14}
+\contentsline {subsubsection}{\numberline {5.6.4}Subsystem Programming Languages}{14}
+\contentsline {subsubsection}{\numberline {5.6.5}Subsystem Data Structures}{14}
+\contentsline {subsubsection}{\numberline {5.6.6}Subsystem Data Processing}{14}
+\contentsline {section}{\numberline {6}Mount Layer Subsystems}{15}
+\contentsline {subsection}{\numberline {6.1}Mount Layer Hardware}{15}
+\contentsline {subsection}{\numberline {6.2}Mount Layer Operating System}{15}
+\contentsline {subsection}{\numberline {6.3}Mount Layer Software Dependencies}{15}
+\contentsline {subsection}{\numberline {6.4}Connector}{15}
+\contentsline {subsubsection}{\numberline {6.4.1}Connector Subsystem Hardware}{15}
+\contentsline {subsubsection}{\numberline {6.4.2}Connector Subsystem Operating System}{15}
+\contentsline {subsubsection}{\numberline {6.4.3}Connector Subsystem Software Dependencies}{15}
+\contentsline {subsubsection}{\numberline {6.4.4}Subsystem Programming Languages}{16}
+\contentsline {subsubsection}{\numberline {6.4.5}Connector Subsystem Data Structures}{16}
+\contentsline {subsubsection}{\numberline {6.4.6}Subsystem Data Processing}{16}
+\contentsline {subsection}{\numberline {6.5}Magnet}{16}
+\contentsline {subsubsection}{\numberline {6.5.1}Connector Subsystem Hardware}{16}
+\contentsline {subsubsection}{\numberline {6.5.2}Connector Subsystem Operating System}{16}
+\contentsline {subsubsection}{\numberline {6.5.3}Connector Subsystem Software Dependencies}{16}
+\contentsline {subsubsection}{\numberline {6.5.4}Subsystem Programming Languages}{16}
+\contentsline {subsubsection}{\numberline {6.5.5}Connector Subsystem Data Structures}{16}
+\contentsline {subsubsection}{\numberline {6.5.6}Subsystem Data Processing}{17}
+\contentsline {section}{\numberline {7}Appendix A}{18}

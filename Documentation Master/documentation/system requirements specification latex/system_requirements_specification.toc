@@ -12,7 +12,7 @@
 \contentsline {subsection}{\numberline {3.2}Tool and Attachment Bindings}{7}
 \contentsline {subsubsection}{\numberline {3.2.1}Description}{7}
 \contentsline {subsubsection}{\numberline {3.2.2}Priority}{7}
-\contentsline {subsection}{\numberline {3.3}Ability to Prepare a Hamburger}{7}
+\contentsline {subsection}{\numberline {3.3}Ability to Prepare a Grill Cheese Sandwich}{7}
 \contentsline {subsubsection}{\numberline {3.3.1}Description}{7}
 \contentsline {subsubsection}{\numberline {3.3.2}Standards}{7}
 \contentsline {subsubsection}{\numberline {3.3.3}Priority}{7}
@@ -56,9 +56,15 @@
 \contentsline {subsubsection}{\numberline {8.2.2}Standards}{12}
 \contentsline {subsubsection}{\numberline {8.2.3}Priority}{12}
 \contentsline {section}{\numberline {9}Other Requirements}{13}
-\contentsline {subsection}{\numberline {9.1}Requirement Name}{13}
+\contentsline {subsection}{\numberline {9.1}Vision Processing}{13}
 \contentsline {subsubsection}{\numberline {9.1.1}Description}{13}
 \contentsline {subsubsection}{\numberline {9.1.2}Source}{13}
 \contentsline {subsubsection}{\numberline {9.1.3}Constraints}{13}
 \contentsline {subsubsection}{\numberline {9.1.4}Standards}{13}
 \contentsline {subsubsection}{\numberline {9.1.5}Priority}{13}
+\contentsline {subsection}{\numberline {9.2}Software Updates via Website}{13}
+\contentsline {subsubsection}{\numberline {9.2.1}Description}{13}
+\contentsline {subsubsection}{\numberline {9.2.2}Source}{13}
+\contentsline {subsubsection}{\numberline {9.2.3}Constraints}{13}
+\contentsline {subsubsection}{\numberline {9.2.4}Standards}{13}
+\contentsline {subsubsection}{\numberline {9.2.5}Priority}{13}

@@ -4,15 +4,11 @@
  & \textbf {\vhauthorname }
  & \textbf {\vhchangename }\\\hline 
 0.1
- & 12.04.2017
- & \listset {LV, JDM}
- & First draft\\\hline 
+ & 5.01.2018
+ & \listset {TB}
+ & Initial creation\\\hline 
 0.2
- & 5.09.2018
- & \listset {LV, TB}
- & Revise documents, add pictures\\\hline 
-0.3
- & 5.11.2018
+ & 5.11.2016
  & \listset {TB}
  & Final Draft\\\hline 
 \end {longtable}
